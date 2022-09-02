@@ -5,7 +5,7 @@ branches:
     - main # ветка git
 cache: node_modules # кеширование
 install:
-  - nom install # команда для установки зависимостей
+  - npm install # команда для установки зависимостей
 build: off
 test_script:
   - npm run lint && npm test # скрипт сборки
